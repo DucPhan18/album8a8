@@ -1,29 +1,30 @@
 .navbar {
     background-color: #333;
     overflow: hidden;
-    border:1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 .navbar a {
     color: #f2f2f2;
     text-align: center;
-    padding-left :92px;
-    padding-right:92px ;
+    padding-left: 92px;
+    padding-right: 92px;
     padding-top: 18px;
     padding-bottom: 18px;
     text-decoration: none;
     font-size: 17px;
-    display:inline-block;
+    display: inline-block;
 }
 
-.navbar li{
-    display:inline;
+.navbar li {
+    display: inline;
 }
+
 .navbar a:hover {
     background: wheat;
     color: black;
@@ -52,4 +53,25 @@ h1 {
     text-align: center;
     color: red;
     margin: 0px;
+}
+
+.btn {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 10px 60px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover {
+    background-color: #EBE7B1;
+}
+
+.dow {
+    text-decoration: none;
 }
