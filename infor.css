@@ -41,5 +41,5 @@ html {
     width: 600px;
     margin: auto;
     padding: 32px;
-    padding-bottom: 100cm;
+    padding-bottom: auto;
 }
